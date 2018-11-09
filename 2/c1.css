@@ -1,0 +1,377 @@
+
+
+body {
+
+	background-repeat: no-repeat;
+    margin: 0;
+    border: 0;
+   
+    overflow-Y: auto;
+	
+}
+
+
+.anna {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    background: rgba(39, 174, 96, 0.85);
+
+}
+
+.akka {
+  
+	position: relative;
+	width: 100%;
+	height: 80px;
+	color: #ffffff;
+	background: rgba(39, 174, 96, 0.85);
+    position: absolute;
+
+    transform: translateY(-305px);
+  
+}
+.border{
+   overflow-X: hidden;
+  position: relative;
+    top: -10px;
+    bottom: 0;
+    
+}
+ol {
+border: 0;
+	margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration-style: none;
+    padding-left: 0px;
+    padding-top: 15px;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+#fltleft {
+    
+    float: left;
+
+
+}
+
+.menu a {
+   
+    display: inline-block;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+    transition: all .5s;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+}
+
+.menu a:hover {
+    background: #ffffff;
+    color: #000000;
+    padding-left: 25px;
+}
+
+.align-right {
+    border: 0;
+	margin: 0;
+    float: right;
+}
+
+.logo {
+    border: 0;
+	margin: 0;
+    transform: translateY(-40px);
+    left: 0;
+    float: left;
+    padding-left: 110px;
+    width: 230px;
+    height: 160px;
+ }
+
+a.active {
+    background-color: #db4343;
+    color: #ffffff;
+}
+
+.locateus {
+    border: 0;
+	margin: 0;
+    width: 300px;
+    height: 305px;
+    background: rgb(209, 74, 60);
+    text-align: center;
+    padding: 105px;
+    font-weight: bolder;
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.locateimg {
+    border: 0;
+	margin: 0;
+    width: 160px;
+    height: 240px;
+    margin: 0;
+    padding-top: 0;
+    transform: translateY(-30px);
+    padding-bottom: 50px;
+}
+
+
+
+.lus {
+    border: 0;
+	margin: 0;
+    display: inline-block;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    text-decoration: none;
+    color: #db4343;
+    background: White;
+    padding: 30px;
+    padding-bottom: 20px;
+    padding-right: 28px;
+    padding-top: 23px;
+    padding-left: 20px; 
+	text-align: center;
+    font-weight: 550;
+    font-family: Bebas Neue;
+    ;
+    font-size: 25px;
+    letter-spacing: 2px;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+    transform: translateY(-40px);
+}
+
+.lus:hover {
+    border: 0;
+	margin: 0;
+    width: 150px;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    transform: translateY(-40px);
+    border-radius: 45px;
+
+}
+
+.food {
+    border: 0;
+	margin: 0;
+    width: 415px;
+    height: 250px;
+    margin: 0;
+    padding-top: 0;
+    position: fixed;
+}
+
+.locus {
+border: 0;
+	margin: 0;
+    padding-left: 510px;
+    transform: translatey(-515px);
+
+}
+
+.ordnow {
+    border: 0;
+	margin: 0;
+    position: relative;
+    top: -515px;
+    
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.ordernow {
+    border: 0;
+	margin: 0;
+    display: inline-block;
+    background-color: rgb(209, 74, 60);
+    text-decoration: none;
+    width: 465px;
+    height: 170px;
+    float: right;
+
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 80px;
+}
+
+.ornow {
+    border: 0;
+	margin: 0;
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 15px;
+    background-color: white;
+    color: #db4343;
+    font-size: 25px;
+    font-weight: 550;
+    letter-spacing: 2px;
+    font-family: Bebas Neue;
+
+    text-decoration: none;
+
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+}
+
+.ornow:hover {
+    border: 0;
+	margin: 0;
+    padding-right: 10px;
+    padding-left: 15px;
+    background-color: white;
+    height: 75px;
+    color: black;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+
+}
+
+.ornow:hover:after {
+
+    content: " "attr(data-hover);
+    font-size: 20px;
+    color: #db4343;
+    letter-spacing: 2px;
+   float: left;
+    padding-left: 8px;
+}
+
+.imgtranslate {
+    border: 0;
+	margin: 0;
+	position: relative;
+	top: -305px;
+	left: 510px;
+	float: none;
+	vertical-align: middle;
+	text-align: center;
+	justify-content: center;
+
+
+
+}
+
+.imagebr {
+    border: 0;
+	margin: 0;
+	background-image: url(o.jpeg);
+	background-repeat: no-repeat;
+	width: 837px;
+	height: 265px;
+}
+
+
+.learndiv {
+    border: 0;
+	margin: 0;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    display: inline-block;
+    border-radius: 25px;
+    width: 170px;
+    height: 35px;
+    background-color: #db4343;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+
+}
+
+.learn {
+   
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-family: bebas neue;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -ms-transition-timing-function: ease-out;
+
+}
+
+.learnmore {
+    border: 0;
+	margin: 0;
+    text-decoration: none;
+    padding-top: 10px;
+
+}
+
+.learn:hover {
+    color: rgb(0, 0, 0);
+
+}
+
+.lines {
+    
+    position: relative;
+    top: 20px;
+    color: white;
+    font-family: Bebas neue;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: 3px;
+
+}
+
+.lines2 {
+    position: relative;
+    top: -10px;
+    left: 5px;
+    color: white;
+    font-family: Bebas neue;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 8px;
+
+}
